@@ -10,7 +10,6 @@
 ###########################################
 import pyautogui
 import time
-import platform
 import os
 
 # if platform.system() == "Windows":
