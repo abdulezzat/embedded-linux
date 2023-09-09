@@ -12,7 +12,7 @@ bool search_user(const map<string,string> & users,const string & name);
 
 int main(void){
     map<string,string> users;
-    cout<<"Welcome to your favorite address book!"
+    cout<<"Welcome to your favorite address book!"<<endl;
     while(1){
         cout<<"What do you want to do?\n"
             <<"List         | Lists all users\n"
@@ -33,9 +33,9 @@ int main(void){
         }else if (user_input == "add"){
 
             string name,number;
-            cout>> "Enter User name : ";
+            cout << "Enter User name : ";
             cin>>name;
-            cout>> "Enter User number : ";
+            cout << "Enter User number : ";
             cin>>number;
 
             if(add_user(users,name,number))
@@ -46,7 +46,7 @@ int main(void){
         }else if (user_input == "delete"){
 
             string name;
-            cout>> "Enter User name : ";
+            cout << "Enter User name : ";
             cin>>name;
 
             if(delete_user(users,name))
@@ -62,7 +62,7 @@ int main(void){
         }else if (user_input == "search"){
 
             string name;
-            cout>> "Enter User name : ";
+            cout<< "Enter User name : ";
             cin>>name;
 
             if(search_user(users, name))
@@ -76,7 +76,7 @@ int main(void){
 
         }else{
 
-            cout<<"Invalid input please try again...."
+            cout<<"Invalid input please try again...."<<endl;
 
         }
     }
@@ -85,9 +85,9 @@ int main(void){
 }
 
 void display(const map<string,string> & users){
-    map<string, string>::iterator itr;
+    map<string, string>::const_iterator itr;
     for (itr = users.begin(); itr != users.end(); ++itr) {
-        cout << '\tname:' << itr->first << '\tnumber:' << itr->second
+        cout << 'name: ' << itr->first << 'number: ' << itr->second
              << '\n';
     }
 }
@@ -97,12 +97,11 @@ bool add_user(map<string,string> & users,const string & name,const string & numb
         return true;
     }
     else
-    return false;
+        return false;
 }
 
-bool delete_user(map<string,string> & users,const string & name);
-{
-    return (users.erase(name) != 0)
+bool delete_user(map<string,string> & users,const string & name){
+    return (users.erase(name) != 0);
 }
 
 void delete_all(map<string,string> & users){
@@ -110,5 +109,5 @@ void delete_all(map<string,string> & users){
 }
 
 bool search_user(const map<string,string> & users,const string & name){
-    return (users.find(name)!=m.end())
+    return (users.find(name)!=users.end());
 }
