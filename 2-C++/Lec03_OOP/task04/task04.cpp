@@ -1,0 +1,11 @@
+//////////////////////////////////////////////////
+// check if there is any value of array is even //
+//////////////////////////////////////////////////
+
+#include <iostream>
+using namespace std;
+
+int main(void){
+    
+    return 0;
+}
