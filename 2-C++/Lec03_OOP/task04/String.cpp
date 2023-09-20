@@ -35,7 +35,9 @@ String::String(const String &dt) : len(dt.len) {
 String::String(String &&dt) : len(dt.len) {
   std::cout << "String(String && )" << std::endl;
   this->s = dt.s; // Ownership movement
-  dt.clear();
+  
+  dt.s = nullptr;
+  dt.len = 0;
 };
 
 // functions
@@ -71,7 +73,7 @@ int String::str_cmp(const String &dt) const {
 
 void String::clear() {
   std::cout << "clear()" << std::endl;
-  if (this->s) {
+  if (this->s != nullptr) {
     delete[] this->s;
     this->s = nullptr;
   }

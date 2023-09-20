@@ -13,7 +13,8 @@ int main(void) {
   String s3(std::move(s2));
   String s4(s1);
 
-  s = "test =";
+  cin >> s;
+  
   cout << s.size() << ": " << s << endl;
   cout << s1.size() << ": " << s1 << endl;
   cout << s2.size() << ": " << s2 << endl;
