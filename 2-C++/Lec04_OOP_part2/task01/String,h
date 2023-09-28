@@ -1,0 +1,44 @@
+#ifndef STRING
+#define STRING
+#include <iostream>
+
+class String{
+    public:
+    //constructors
+    explicit String();
+    String(const char * dt);
+    String(unsigned int l,const char * dt);
+    String(const String & dt); // copy constructor
+    String(String&& dt); // assignment constructor
+
+    //functions
+    unsigned int size() const;
+    bool is_empty() const;
+    int str_cmp(const String& dt) const;
+    void clear();
+    
+    //operators
+    String operator+(const String& dt);
+    String operator+(const char * s);
+
+    void operator+=(const String& dt);
+    void operator+=(const char * s);
+
+    String& operator=(const char* chr);
+    String& operator=(const String& dt); // copy assignment
+    String& operator=(String&& dt); // move assignment
+
+    friend std::ostream& operator<<(std::ostream& os, const String& dt); 
+    friend std::istream& operator>>(std::istream& is,String& dt); 
+
+    explicit operator char*();
+    
+    //distructor
+    ~String();
+
+
+    private:
+    unsigned int len;
+    char* s;
+};
+#endif
