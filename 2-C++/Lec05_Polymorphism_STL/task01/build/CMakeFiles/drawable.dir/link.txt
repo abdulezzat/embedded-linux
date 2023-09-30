@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/drawable.dir/main.cpp.o -o drawable  src/libLibProject.a 
