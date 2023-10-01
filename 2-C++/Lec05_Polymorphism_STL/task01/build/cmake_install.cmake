@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01
+# Install script for directory: /home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src/cmake_install.cmake")
+  include("/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

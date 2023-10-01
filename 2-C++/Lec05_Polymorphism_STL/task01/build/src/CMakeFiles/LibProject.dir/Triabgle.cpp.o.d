@@ -1,9 +1,9 @@
 src/CMakeFiles/LibProject.dir/Triabgle.cpp.o: \
- /mnt/c/Users/Abdullah\ Ezzat/Desktop/embedded\ linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Triabgle.cpp \
+ /home/abdullah/Desktop/embedded\ linux/2-C++/Lec05_Polymorphism_STL/task01/src/Triabgle.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/Abdullah\ Ezzat/Desktop/embedded\ linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/../include/Triangle.h \
- /mnt/c/Users/Abdullah\ Ezzat/Desktop/embedded\ linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/../include/Drawable.h \
- /mnt/c/Users/Abdullah\ Ezzat/Desktop/embedded\ linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/../include/Point.h \
+ /home/abdullah/Desktop/embedded\ linux/2-C++/Lec05_Polymorphism_STL/task01/src/../include/Triangle.h \
+ /home/abdullah/Desktop/embedded\ linux/2-C++/Lec05_Polymorphism_STL/task01/src/../include/Drawable.h \
+ /home/abdullah/Desktop/embedded\ linux/2-C++/Lec05_Polymorphism_STL/task01/src/../include/Point.h \
  /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

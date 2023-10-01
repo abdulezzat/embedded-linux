@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src
+# Install script for directory: /home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

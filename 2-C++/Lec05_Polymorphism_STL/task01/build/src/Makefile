@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01"
+CMAKE_SOURCE_DIR = "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build"
+CMAKE_BINARY_DIR = "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src//CMakeFiles/progress.marks"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" 0
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src//CMakeFiles/progress.marks"
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/LibProject.dir/rule:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/LibProject.dir/rule
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/LibProject.dir/rule
 .PHONY : src/CMakeFiles/LibProject.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ LibProject: src/CMakeFiles/LibProject.dir/rule
 
 # fast build rule for target.
 LibProject/fast:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/build
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/build
 .PHONY : LibProject/fast
 
 Circle.o: Circle.cpp.o
@@ -135,7 +135,7 @@ Circle.o: Circle.cpp.o
 
 # target to build an object file
 Circle.cpp.o:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Circle.cpp.o
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Circle.cpp.o
 .PHONY : Circle.cpp.o
 
 Circle.i: Circle.cpp.i
@@ -143,7 +143,7 @@ Circle.i: Circle.cpp.i
 
 # target to preprocess a source file
 Circle.cpp.i:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Circle.cpp.i
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Circle.cpp.i
 .PHONY : Circle.cpp.i
 
 Circle.s: Circle.cpp.s
@@ -151,7 +151,7 @@ Circle.s: Circle.cpp.s
 
 # target to generate assembly for a file
 Circle.cpp.s:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Circle.cpp.s
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Circle.cpp.s
 .PHONY : Circle.cpp.s
 
 Drawable.o: Drawable.cpp.o
@@ -159,7 +159,7 @@ Drawable.o: Drawable.cpp.o
 
 # target to build an object file
 Drawable.cpp.o:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Drawable.cpp.o
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Drawable.cpp.o
 .PHONY : Drawable.cpp.o
 
 Drawable.i: Drawable.cpp.i
@@ -167,7 +167,7 @@ Drawable.i: Drawable.cpp.i
 
 # target to preprocess a source file
 Drawable.cpp.i:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Drawable.cpp.i
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Drawable.cpp.i
 .PHONY : Drawable.cpp.i
 
 Drawable.s: Drawable.cpp.s
@@ -175,7 +175,7 @@ Drawable.s: Drawable.cpp.s
 
 # target to generate assembly for a file
 Drawable.cpp.s:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Drawable.cpp.s
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Drawable.cpp.s
 .PHONY : Drawable.cpp.s
 
 Point.o: Point.cpp.o
@@ -183,7 +183,7 @@ Point.o: Point.cpp.o
 
 # target to build an object file
 Point.cpp.o:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Point.cpp.o
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Point.cpp.o
 .PHONY : Point.cpp.o
 
 Point.i: Point.cpp.i
@@ -191,7 +191,7 @@ Point.i: Point.cpp.i
 
 # target to preprocess a source file
 Point.cpp.i:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Point.cpp.i
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Point.cpp.i
 .PHONY : Point.cpp.i
 
 Point.s: Point.cpp.s
@@ -199,7 +199,7 @@ Point.s: Point.cpp.s
 
 # target to generate assembly for a file
 Point.cpp.s:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Point.cpp.s
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Point.cpp.s
 .PHONY : Point.cpp.s
 
 Rectangle.o: Rectangle.cpp.o
@@ -207,7 +207,7 @@ Rectangle.o: Rectangle.cpp.o
 
 # target to build an object file
 Rectangle.cpp.o:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Rectangle.cpp.o
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Rectangle.cpp.o
 .PHONY : Rectangle.cpp.o
 
 Rectangle.i: Rectangle.cpp.i
@@ -215,7 +215,7 @@ Rectangle.i: Rectangle.cpp.i
 
 # target to preprocess a source file
 Rectangle.cpp.i:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Rectangle.cpp.i
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Rectangle.cpp.i
 .PHONY : Rectangle.cpp.i
 
 Rectangle.s: Rectangle.cpp.s
@@ -223,7 +223,7 @@ Rectangle.s: Rectangle.cpp.s
 
 # target to generate assembly for a file
 Rectangle.cpp.s:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Rectangle.cpp.s
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Rectangle.cpp.s
 .PHONY : Rectangle.cpp.s
 
 Triabgle.o: Triabgle.cpp.o
@@ -231,7 +231,7 @@ Triabgle.o: Triabgle.cpp.o
 
 # target to build an object file
 Triabgle.cpp.o:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Triabgle.cpp.o
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Triabgle.cpp.o
 .PHONY : Triabgle.cpp.o
 
 Triabgle.i: Triabgle.cpp.i
@@ -239,7 +239,7 @@ Triabgle.i: Triabgle.cpp.i
 
 # target to preprocess a source file
 Triabgle.cpp.i:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Triabgle.cpp.i
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Triabgle.cpp.i
 .PHONY : Triabgle.cpp.i
 
 Triabgle.s: Triabgle.cpp.s
@@ -247,7 +247,7 @@ Triabgle.s: Triabgle.cpp.s
 
 # target to generate assembly for a file
 Triabgle.cpp.s:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Triabgle.cpp.s
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LibProject.dir/build.make src/CMakeFiles/LibProject.dir/Triabgle.cpp.s
 .PHONY : Triabgle.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,10 +1,10 @@
 CMakeFiles/drawable.dir/main.cpp.o: \
- /mnt/c/Users/Abdullah\ Ezzat/Desktop/embedded\ linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/main.cpp \
+ /home/abdullah/Desktop/embedded\ linux/2-C++/Lec05_Polymorphism_STL/task01/main.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/Abdullah\ Ezzat/Desktop/embedded\ linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/include/Drawable.h \
- /mnt/c/Users/Abdullah\ Ezzat/Desktop/embedded\ linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/include/Circle.h \
- /mnt/c/Users/Abdullah\ Ezzat/Desktop/embedded\ linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/include/Drawable.h \
- /mnt/c/Users/Abdullah\ Ezzat/Desktop/embedded\ linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/include/Point.h \
+ /home/abdullah/Desktop/embedded\ linux/2-C++/Lec05_Polymorphism_STL/task01/include/Drawable.h \
+ /home/abdullah/Desktop/embedded\ linux/2-C++/Lec05_Polymorphism_STL/task01/include/Circle.h \
+ /home/abdullah/Desktop/embedded\ linux/2-C++/Lec05_Polymorphism_STL/task01/include/Drawable.h \
+ /home/abdullah/Desktop/embedded\ linux/2-C++/Lec05_Polymorphism_STL/task01/include/Point.h \
  /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -89,9 +89,9 @@ CMakeFiles/drawable.dir/main.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /mnt/c/Users/Abdullah\ Ezzat/Desktop/embedded\ linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/include/Point.h \
- /mnt/c/Users/Abdullah\ Ezzat/Desktop/embedded\ linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/include/Rectangle.h \
- /mnt/c/Users/Abdullah\ Ezzat/Desktop/embedded\ linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/include/Triangle.h \
+ /home/abdullah/Desktop/embedded\ linux/2-C++/Lec05_Polymorphism_STL/task01/include/Point.h \
+ /home/abdullah/Desktop/embedded\ linux/2-C++/Lec05_Polymorphism_STL/task01/include/Rectangle.h \
+ /home/abdullah/Desktop/embedded\ linux/2-C++/Lec05_Polymorphism_STL/task01/include/Triangle.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
  /usr/include/c++/11/bits/stringfwd.h \

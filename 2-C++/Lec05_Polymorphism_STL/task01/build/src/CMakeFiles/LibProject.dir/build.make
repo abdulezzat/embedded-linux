@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01"
+CMAKE_SOURCE_DIR = "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build"
+CMAKE_BINARY_DIR = "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build"
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/LibProject.dir/depend.make
@@ -72,72 +72,72 @@ include src/CMakeFiles/LibProject.dir/flags.make
 src/CMakeFiles/LibProject.dir/Circle.cpp.o: src/CMakeFiles/LibProject.dir/flags.make
 src/CMakeFiles/LibProject.dir/Circle.cpp.o: ../src/Circle.cpp
 src/CMakeFiles/LibProject.dir/Circle.cpp.o: src/CMakeFiles/LibProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/LibProject.dir/Circle.cpp.o"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LibProject.dir/Circle.cpp.o -MF CMakeFiles/LibProject.dir/Circle.cpp.o.d -o CMakeFiles/LibProject.dir/Circle.cpp.o -c "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Circle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/LibProject.dir/Circle.cpp.o"
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LibProject.dir/Circle.cpp.o -MF CMakeFiles/LibProject.dir/Circle.cpp.o.d -o CMakeFiles/LibProject.dir/Circle.cpp.o -c "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src/Circle.cpp"
 
 src/CMakeFiles/LibProject.dir/Circle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibProject.dir/Circle.cpp.i"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Circle.cpp" > CMakeFiles/LibProject.dir/Circle.cpp.i
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src/Circle.cpp" > CMakeFiles/LibProject.dir/Circle.cpp.i
 
 src/CMakeFiles/LibProject.dir/Circle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibProject.dir/Circle.cpp.s"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Circle.cpp" -o CMakeFiles/LibProject.dir/Circle.cpp.s
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src/Circle.cpp" -o CMakeFiles/LibProject.dir/Circle.cpp.s
 
 src/CMakeFiles/LibProject.dir/Drawable.cpp.o: src/CMakeFiles/LibProject.dir/flags.make
 src/CMakeFiles/LibProject.dir/Drawable.cpp.o: ../src/Drawable.cpp
 src/CMakeFiles/LibProject.dir/Drawable.cpp.o: src/CMakeFiles/LibProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/LibProject.dir/Drawable.cpp.o"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LibProject.dir/Drawable.cpp.o -MF CMakeFiles/LibProject.dir/Drawable.cpp.o.d -o CMakeFiles/LibProject.dir/Drawable.cpp.o -c "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Drawable.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/LibProject.dir/Drawable.cpp.o"
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LibProject.dir/Drawable.cpp.o -MF CMakeFiles/LibProject.dir/Drawable.cpp.o.d -o CMakeFiles/LibProject.dir/Drawable.cpp.o -c "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src/Drawable.cpp"
 
 src/CMakeFiles/LibProject.dir/Drawable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibProject.dir/Drawable.cpp.i"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Drawable.cpp" > CMakeFiles/LibProject.dir/Drawable.cpp.i
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src/Drawable.cpp" > CMakeFiles/LibProject.dir/Drawable.cpp.i
 
 src/CMakeFiles/LibProject.dir/Drawable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibProject.dir/Drawable.cpp.s"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Drawable.cpp" -o CMakeFiles/LibProject.dir/Drawable.cpp.s
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src/Drawable.cpp" -o CMakeFiles/LibProject.dir/Drawable.cpp.s
 
 src/CMakeFiles/LibProject.dir/Point.cpp.o: src/CMakeFiles/LibProject.dir/flags.make
 src/CMakeFiles/LibProject.dir/Point.cpp.o: ../src/Point.cpp
 src/CMakeFiles/LibProject.dir/Point.cpp.o: src/CMakeFiles/LibProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/LibProject.dir/Point.cpp.o"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LibProject.dir/Point.cpp.o -MF CMakeFiles/LibProject.dir/Point.cpp.o.d -o CMakeFiles/LibProject.dir/Point.cpp.o -c "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Point.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/LibProject.dir/Point.cpp.o"
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LibProject.dir/Point.cpp.o -MF CMakeFiles/LibProject.dir/Point.cpp.o.d -o CMakeFiles/LibProject.dir/Point.cpp.o -c "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src/Point.cpp"
 
 src/CMakeFiles/LibProject.dir/Point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibProject.dir/Point.cpp.i"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Point.cpp" > CMakeFiles/LibProject.dir/Point.cpp.i
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src/Point.cpp" > CMakeFiles/LibProject.dir/Point.cpp.i
 
 src/CMakeFiles/LibProject.dir/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibProject.dir/Point.cpp.s"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Point.cpp" -o CMakeFiles/LibProject.dir/Point.cpp.s
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src/Point.cpp" -o CMakeFiles/LibProject.dir/Point.cpp.s
 
 src/CMakeFiles/LibProject.dir/Rectangle.cpp.o: src/CMakeFiles/LibProject.dir/flags.make
 src/CMakeFiles/LibProject.dir/Rectangle.cpp.o: ../src/Rectangle.cpp
 src/CMakeFiles/LibProject.dir/Rectangle.cpp.o: src/CMakeFiles/LibProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/LibProject.dir/Rectangle.cpp.o"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LibProject.dir/Rectangle.cpp.o -MF CMakeFiles/LibProject.dir/Rectangle.cpp.o.d -o CMakeFiles/LibProject.dir/Rectangle.cpp.o -c "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Rectangle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/LibProject.dir/Rectangle.cpp.o"
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LibProject.dir/Rectangle.cpp.o -MF CMakeFiles/LibProject.dir/Rectangle.cpp.o.d -o CMakeFiles/LibProject.dir/Rectangle.cpp.o -c "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src/Rectangle.cpp"
 
 src/CMakeFiles/LibProject.dir/Rectangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibProject.dir/Rectangle.cpp.i"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Rectangle.cpp" > CMakeFiles/LibProject.dir/Rectangle.cpp.i
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src/Rectangle.cpp" > CMakeFiles/LibProject.dir/Rectangle.cpp.i
 
 src/CMakeFiles/LibProject.dir/Rectangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibProject.dir/Rectangle.cpp.s"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Rectangle.cpp" -o CMakeFiles/LibProject.dir/Rectangle.cpp.s
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src/Rectangle.cpp" -o CMakeFiles/LibProject.dir/Rectangle.cpp.s
 
 src/CMakeFiles/LibProject.dir/Triabgle.cpp.o: src/CMakeFiles/LibProject.dir/flags.make
 src/CMakeFiles/LibProject.dir/Triabgle.cpp.o: ../src/Triabgle.cpp
 src/CMakeFiles/LibProject.dir/Triabgle.cpp.o: src/CMakeFiles/LibProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/LibProject.dir/Triabgle.cpp.o"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LibProject.dir/Triabgle.cpp.o -MF CMakeFiles/LibProject.dir/Triabgle.cpp.o.d -o CMakeFiles/LibProject.dir/Triabgle.cpp.o -c "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Triabgle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/LibProject.dir/Triabgle.cpp.o"
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/LibProject.dir/Triabgle.cpp.o -MF CMakeFiles/LibProject.dir/Triabgle.cpp.o.d -o CMakeFiles/LibProject.dir/Triabgle.cpp.o -c "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src/Triabgle.cpp"
 
 src/CMakeFiles/LibProject.dir/Triabgle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibProject.dir/Triabgle.cpp.i"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Triabgle.cpp" > CMakeFiles/LibProject.dir/Triabgle.cpp.i
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src/Triabgle.cpp" > CMakeFiles/LibProject.dir/Triabgle.cpp.i
 
 src/CMakeFiles/LibProject.dir/Triabgle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibProject.dir/Triabgle.cpp.s"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src/Triabgle.cpp" -o CMakeFiles/LibProject.dir/Triabgle.cpp.s
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src/Triabgle.cpp" -o CMakeFiles/LibProject.dir/Triabgle.cpp.s
 
 # Object files for target LibProject
 LibProject_OBJECTS = \
@@ -157,19 +157,19 @@ src/libLibProject.a: src/CMakeFiles/LibProject.dir/Rectangle.cpp.o
 src/libLibProject.a: src/CMakeFiles/LibProject.dir/Triabgle.cpp.o
 src/libLibProject.a: src/CMakeFiles/LibProject.dir/build.make
 src/libLibProject.a: src/CMakeFiles/LibProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libLibProject.a"
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && $(CMAKE_COMMAND) -P CMakeFiles/LibProject.dir/cmake_clean_target.cmake
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LibProject.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libLibProject.a"
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && $(CMAKE_COMMAND) -P CMakeFiles/LibProject.dir/cmake_clean_target.cmake
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LibProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/LibProject.dir/build: src/libLibProject.a
 .PHONY : src/CMakeFiles/LibProject.dir/build
 
 src/CMakeFiles/LibProject.dir/clean:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && $(CMAKE_COMMAND) -P CMakeFiles/LibProject.dir/cmake_clean.cmake
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" && $(CMAKE_COMMAND) -P CMakeFiles/LibProject.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/LibProject.dir/clean
 
 src/CMakeFiles/LibProject.dir/depend:
-	cd "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01" "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/src" "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build" "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" "/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src/CMakeFiles/LibProject.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01" "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/src" "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build" "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src" "/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src/CMakeFiles/LibProject.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/CMakeFiles/LibProject.dir/depend
 

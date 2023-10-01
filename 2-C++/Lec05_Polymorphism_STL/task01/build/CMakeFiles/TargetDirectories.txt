@@ -1,6 +1,6 @@
-/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles/drawable.dir
-/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src/CMakeFiles/LibProject.dir
-/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Abdullah Ezzat/Desktop/embedded linux/embedded-linux/2-C++/Lec05_Polymorphism_STL/task01/build/src/CMakeFiles/rebuild_cache.dir
+/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles/drawable.dir
+/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles/edit_cache.dir
+/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/CMakeFiles/rebuild_cache.dir
+/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src/CMakeFiles/LibProject.dir
+/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src/CMakeFiles/edit_cache.dir
+/home/abdullah/Desktop/embedded linux/2-C++/Lec05_Polymorphism_STL/task01/build/src/CMakeFiles/rebuild_cache.dir
