@@ -59,6 +59,5 @@
         "xutility": "cpp",
         "numeric": "cpp"
     },
-    "C_Cpp.errorSquiggles": "disabled",
-    "cmake.configureOnOpen": false
+    "C_Cpp.errorSquiggles": "disabled"
 }
