@@ -42,20 +42,44 @@ special commands:
 
 - PC Side "Server":
   * Start the server:
- 
+
+  ![image](https://github.com/abdulezzat/embedded-linux/assets/41158260/1a428dc9-65c9-4016-bf6d-1ca1fa13382c)
+
   * After the client connects successfully:
- 
+
+  ![image](https://github.com/abdulezzat/embedded-linux/assets/41158260/5ee09cf0-dcc2-49a2-92f2-f0324f5cc868)
+
   * Receiving and Executing commands:
+ 
+    ![image](https://github.com/abdulezzat/embedded-linux/assets/41158260/aa97b1b3-19c3-41d3-8457-f5f6e5074114)
+    
+    Here the client sends to the server `ls` command, and the directory that contains the executable file contains:
+    
+    ![image](https://github.com/abdulezzat/embedded-linux/assets/41158260/f32f14c2-d135-4b14-a984-23e20d9cfc68)
+
+
 
 - Mobile Side "Client":
   * Start the Client:
- 
+
+   ![WhatsApp Image 2023-10-11 at 18 44 50_b8723205](https://github.com/abdulezzat/embedded-linux/assets/41158260/c6890c01-76eb-4114-bb48-82e020689dc2)
+
   * After successful connection:
+ 
+    ![WhatsApp Image 2023-10-11 at 18 44 50_a315cb83](https://github.com/abdulezzat/embedded-linux/assets/41158260/261267a1-793c-417b-9309-4ff9285e1774)
+
  
   * Send terminal command to the server:
  
-  * Receive the result:
+    ![WhatsApp Image 2023-10-11 at 18 44 50_48cdff82](https://github.com/abdulezzat/embedded-linux/assets/41158260/502024dc-feaf-40b9-858c-962427533e84)
+
+  The client sent `ls` command and then received and displayed the result.
  
   * Shut down the server:
+
+    ![WhatsApp Image 2023-10-11 at 18 44 51_97ecadcc](https://github.com/abdulezzat/embedded-linux/assets/41158260/79256f00-ebce-49cc-9cac-1f93fb5be866)
+
+    The client sent `stop` command to shut down the server.
+
  
     
