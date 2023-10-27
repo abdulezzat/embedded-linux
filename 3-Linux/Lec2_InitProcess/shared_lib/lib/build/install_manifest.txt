@@ -1,0 +1,6 @@
+/usr/lib/libDrawable.so
+/usr/local/include/Circle.h
+/usr/local/include/Drawable.h
+/usr/local/include/Point.h
+/usr/local/include/Rectangle.h
+/usr/local/include/Triangle.h

@@ -1,0 +1,7 @@
+/home/abdullah/Desktop/embedded linux/3-Linux/Lec2_InitProcess/shared_lib/lib/build/CMakeFiles/Drawable.dir
+/home/abdullah/Desktop/embedded linux/3-Linux/Lec2_InitProcess/shared_lib/lib/build/CMakeFiles/edit_cache.dir
+/home/abdullah/Desktop/embedded linux/3-Linux/Lec2_InitProcess/shared_lib/lib/build/CMakeFiles/rebuild_cache.dir
+/home/abdullah/Desktop/embedded linux/3-Linux/Lec2_InitProcess/shared_lib/lib/build/CMakeFiles/list_install_components.dir
+/home/abdullah/Desktop/embedded linux/3-Linux/Lec2_InitProcess/shared_lib/lib/build/CMakeFiles/install.dir
+/home/abdullah/Desktop/embedded linux/3-Linux/Lec2_InitProcess/shared_lib/lib/build/CMakeFiles/install/local.dir
+/home/abdullah/Desktop/embedded linux/3-Linux/Lec2_InitProcess/shared_lib/lib/build/CMakeFiles/install/strip.dir
